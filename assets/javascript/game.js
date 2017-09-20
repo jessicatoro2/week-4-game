@@ -48,6 +48,12 @@ var startGame = function(){
     if(userCounter === RandomNumber) {
       wins++;
       userCounter = 0;
+      // I was trying to make the gems rotate when there was a win which the below code does but I couldn't get it to stop without messing up the count on the other pieces. 
+      // var angle = 0;
+      // setInterval(function(){
+      //   angle+=3;
+      //   $(".gemsDiv").rotate(angle);},10);
+      // $(".gemsDiv").rotate({ count:4, duration:0.6, easing:'ease-out' });
       $("#totalScore").text(userCounter);
       console.log("wins", wins);
       $("#winsTrack").text(wins);
