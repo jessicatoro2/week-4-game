@@ -7,10 +7,10 @@ body{
 }
 
 .jumbotron {
-    color: #fff;
-    background: none;
-    color: white; 
-    height: 180px;
+	color: #fff;
+	background: none;
+	color: white; 
+	height: 180px;
 }
 
 
@@ -24,7 +24,16 @@ h1{
 
 
 .jumbotron h1{
-		font-size: 110px;
+	font-size: 110px;
 }
 
-bu
+#instructions{
+	margin-top: 20px;
+	align-content: center;
+	color: white;	
+}
+
+.btn-default {
+	background: none;
+	color: white;
+}
