@@ -3,5 +3,28 @@ h4{
 }
 
 body{
-	
+	background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
 }
+
+.jumbotron {
+    color: #fff;
+    background: none;
+    color: white; 
+    height: 180px;
+}
+
+
+h1{
+	margin-top: 0;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 200px;
+
+}
+
+
+.jumbotron h1{
+		font-size: 110px;
+}
+
+bu
