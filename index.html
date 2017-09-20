@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Hunter</title>
+
+	<!--Bootstraps jquery CDN-->
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!--This is the link to the styles and reset-->	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<div id="game">	
+
+		<!--Header with number that needs to be reached-->		
+		<div class="jumbotron text-center">
+			<h1>Crystal Hunter</h1>
+			<p>Number to reach: <span id="number-to-reach"></span></p>
+		</div>
+		
+		<!-- Gems in there containers -->		
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<img src="assets/images/gem1-yellow.png" id = "gemYellowpic" class="gemsDiv" alt="yellow gem image">
+				</div>
+
+				<div class="col-sm-3">
+					<img src="assets/images/gem2-green.png" id = "gemGreenpic" class="gemsDiv" alt="green gem image">
+				</div>
+
+				<div class="col-sm-3">
+					<img src="assets/images/gem4-pink.png" id = "gemPinkpic" class="gemsDiv" alt="pink gem image">
+				</div>
+
+				<div class="col-sm-3">
+					<img src="assets/images/gem3-blue.png" id = "gemBluepic" class="gemsDiv" alt="blue gem image">
+				</div>
+			</div>
+		</div>
+
+		<!-- This is the text to keep track of the scores -->				
+		<div class="container">
+			<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default">Wins: <span id="winsTrack"></span>
+					</button>
+				</div>
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default">Your Score: <span id="totalScore"></span></button>
+				</div>
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default">Losses: <span id="lossesTrack"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+
+	<!-- Link to Javascript-->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+	<!-- This is the jquery library CDN -->
+	<script	src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+
+</body>
+</html>
