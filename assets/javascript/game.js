@@ -59,7 +59,7 @@ var startGame = function(){
         $(".gemsDiv").rotate(angle);
       },5);
         setTimeout(function(){
-          console.log("cleaing interval")
+          console.log("cleaning interval")
           clearInterval(intervalId);
         },500);
       $("#totalScore").text(userCounter);
